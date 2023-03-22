@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DEVMOBOnBoard</string>
+    <string name="mes_documents">Mes documents</string>
+    <string name="mes_frais_d_inscription">mes Frais d\'inscription</string>
+    <string name="ma_scolarit">Ma scolarité</string>
+    <string name="mes_experiences">Mes experiences</string>
+    <string name="mes_absences">Mes absences</string>
 </resources>
