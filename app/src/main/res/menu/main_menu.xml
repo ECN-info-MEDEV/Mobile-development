@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_documents"
+                    android:title="@string/mes_documents"
+                    android:icon="@drawable/ic_launcher_foreground"/>
+                <item android:id="@+id/nav_Frais"
+                    android:title="@string/mes_frais_d_inscription"
+                    android:icon="@drawable/ic_launcher_foreground"/>
+                <item android:id="@+id/nav_scolarité"
+                    android:title="@string/ma_scolarit"
+                    android:icon="@drawable/ic_launcher_foreground"/>
+                <item android:id="@+id/nav_experiences"
+                    android:title="@string/mes_experiences"
+                    android:icon="@drawable/ic_launcher_foreground"/>
+                <item android:id="@+id/nav_absences"
+                    android:title="@string/mes_absences"
+                    android:icon="@drawable/ic_launcher_foreground"/>
+            </group>
+        </menu>
+    </item>
+</menu>
