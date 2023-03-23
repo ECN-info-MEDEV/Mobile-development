@@ -5,4 +5,7 @@
     <string name="ma_scolarit">Ma scolarité</string>
     <string name="mes_experiences">Mes experiences</string>
     <string name="mes_absences">Mes absences</string>
+    <string name="profile_button">profile_button</string>
+    <string name="toggle_menu_button">toggle_menu_button</string>
+    <string name="reload">Reload</string>
 </resources>
