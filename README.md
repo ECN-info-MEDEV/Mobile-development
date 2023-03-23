@@ -15,8 +15,9 @@ Ce TP a pour objectif de mettre en pratique les connaissances acquises en cours 
 - Connaissance des outils de contrôle de version : Git
 - Gradle
 # Vues
-Page de connexion (Login)
-Page d'accueil (HomePage)
+- Page de connexion (Login)
+- Page d'accueil (HomePage)
+- Page des alertes(AlertesData)
 # Instructions
 - Pour se connecter, utilisez le login "admin" et le mot de passe "admin".
 - Pour accéder à la partie "Mes alertes" de la vue "HomePage" et ajouter une alerte, cliquez sur le bouton correspondant(Plus).
