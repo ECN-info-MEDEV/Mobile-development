@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">DEVMOBOnBoard</string>
+    <string name="mes_documents">Mes documents</string>
+    <string name="mes_frais_d_inscription">mes Frais d\'inscription</string>
+    <string name="ma_scolarit">Ma scolarité</string>
+    <string name="mes_experiences">Mes experiences</string>
+    <string name="mes_absences">Mes absences</string>
+    <string name="profile_button">profile_button</string>
+    <string name="toggle_menu_button">toggle_menu_button</string>
+    <string name="reload">Reload</string>
     <string name="login">Connexion</string>
     <string name="password_hint">Mot de passe</string>
     <string name="username_hint">Identifiant</string>
