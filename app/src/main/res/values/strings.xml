@@ -12,4 +12,6 @@
     <string name="password_hint">Mot de passe</string>
     <string name="username_hint">Identifiant</string>
     <string name="reset_password">Mot de passe oublié ?</string>
+    <string name="mes_alertes">mes alertes</string>
+    <string name="add_alert">add alert</string>
 </resources>
