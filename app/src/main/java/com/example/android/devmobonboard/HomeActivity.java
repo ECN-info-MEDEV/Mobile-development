@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
     private ImageButton toggleButton;
-    private ImageButton alerteButton;
+    protected ImageButton alerteButton;
 
 
     public static final String EXTRA_MESSAGE =
@@ -40,7 +40,7 @@ public class HomeActivity extends AppCompatActivity {
         
 
         toggleButton = findViewById(R.id.profile_button);
-        alerteButton = findViewById(R.id.Alertes);
+         alerteButton = findViewById(R.id.Alertes);
         toggleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,10 +49,13 @@ public class HomeActivity extends AppCompatActivity {
         });
 
         ImageButton profileButton = findViewById(R.id.profile_button);
-        profileButton.setOnClickListener(new View.OnClickListener() {
+        alerteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO: Handle profile button click
+                Intent intent = new Intent(HomeActivity.this, AlertesData.class);
+                String message = mMessageEditText.getText().toString();
+                intent.putExtra(EXTRA_MESSAGE, message);
+                startActivityForResult(intent, TEXT_REQUEST);
             }
         });
     }
