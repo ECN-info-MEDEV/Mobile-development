@@ -10,10 +10,10 @@ Ce TP a pour objectif de mettre en pratique les connaissances acquises en cours 
 Saleh eddine EL FDALI : saleh-eddine.el-fdali@eleves.ec-nantes.fr
 Oussama ELBETTAL : oussama.elbettal@eleves.ec-nantes.fr
 # Prérequis
-Android Studio
-Connaissances de base en Java
-Connaissance des outils de contrôle de version : Git
-Gradle
+- Android Studio
+- Connaissances de base en Java
+- Connaissance des outils de contrôle de version : Git
+- Gradle
 # Vues
 - Page de connexion (Login)
 - Page d'accueil (HomePage)
