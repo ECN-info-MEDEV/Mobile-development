@@ -8,4 +8,7 @@
     <string name="profile_button">profile_button</string>
     <string name="toggle_menu_button">toggle_menu_button</string>
     <string name="reload">Reload</string>
+    <string name="login">Connexion</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="username_hint">Identifiant</string>
 </resources>
