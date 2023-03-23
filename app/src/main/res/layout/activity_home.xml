@@ -126,6 +126,15 @@
                         android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+                    <ImageButton
+                        android:id="@+id/Alertes"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/add_alert"
+                        android:padding="7dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/plus" />
 
                 </LinearLayout>
 
@@ -137,32 +146,39 @@
                     android:orientation="vertical">
 
                     <!-- alert 1 -->
-                    <TextView
+                    <EditText
+                        android:id="@+id/Alert_content"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/white"
-                        android:text="Alerte 1"
-                        android:textColor="@color/black" />
+                        android:hint="Edit your alerte"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
 
                     <!-- alert 2 -->
                     <TextView
+                        android:id="@+id/alerte2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:background="@color/white"
                         android:text="Alerte 2"
                         android:textColor="@color/black"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:visibility="invisible"/>
 
                     <!-- alert 3 -->
                     <TextView
+                        android:id="@+id/alerte3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:background="@color/white"
                         android:text="Alerte 3"
                         android:textColor="@color/black"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:visibility="invisible"/>
+
 
                     <!-- Add more alerts here as needed -->
 
