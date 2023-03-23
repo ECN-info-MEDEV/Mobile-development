@@ -11,9 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DEVMOBOnBoard"
         tools:targetApi="31">
-        <activity
-            android:name=".AlertesData"
-            android:exported="false" />
+
+        <activity android:name=".AlertesData"
+            android:label = "Alertes Data"
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.android.devmobonboard.HomeActivity" />
+        </activity>
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
