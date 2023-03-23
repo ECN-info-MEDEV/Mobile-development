@@ -87,6 +87,30 @@
 
     </LinearLayout>
 
-    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="ADD ALERT"
+            android:textAppearance="bold"/>
+        <EditText
+            android:id="@+id/alert_content"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="@string/mes_alertes"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="@color/colorHint"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

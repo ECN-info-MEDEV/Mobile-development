@@ -2,6 +2,7 @@ package com.example.android.devmobonboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,20 +11,31 @@ import android.widget.PopupMenu;
 
 public class HomeActivity extends AppCompatActivity {
     private ImageButton toggleButton;
+    private ImageButton alerteButton;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+
         toggleButton = findViewById(R.id.profile_button);
+        alerteButton = findViewById(R.id.Alertes);
         toggleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showPopupMenu(v);
             }
         });
-
+        alerteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(this, AlertesData.class);
+                
+            }
+        });
         ImageButton profileButton = findViewById(R.id.profile_button);
         profileButton.setOnClickListener(new View.OnClickListener() {
             @Override
