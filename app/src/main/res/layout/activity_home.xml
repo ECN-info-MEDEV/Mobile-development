@@ -11,19 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:background="@android:color/holo_blue_light"
+        android:background="@android:color/holo_blue_dark"
         android:orientation="horizontal"
-        android:paddingTop="40dp">
+        android:paddingTop="60dp">
 
         <ImageButton
             android:id="@+id/toggle_button"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_gravity="start"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|start"
             android:layout_weight="0"
             android:background="@android:color/darker_gray"
             android:contentDescription="toggle_menu_button"
-            android:padding="16dp"
+            android:padding="5dp"
             app:srcCompat="@drawable/menu"
             android:scaleType="fitCenter"/>
 
@@ -34,13 +34,13 @@
 
         <ImageButton
             android:id="@+id/profile_button"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_gravity="end"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|end"
             android:layout_weight="0"
-            android:background="@android:color/darker_gray"
+            android:background="@android:color/transparent"
             android:contentDescription="profile_button"
-            android:padding="16dp"
+            android:padding="5dp"
             app:srcCompat="@drawable/profile"
             android:scaleType="fitCenter"/>
 
